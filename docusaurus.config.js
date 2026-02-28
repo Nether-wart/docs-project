@@ -12,8 +12,8 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "Nether_wart' Site",
-    tagline: 'Dinosaurs are cool',
+    title: "Nether-wart's notes",
+    tagline: 'Nether-wart的笔记',
     favicon: 'img/favicon.ico',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -110,7 +110,7 @@ const config = {
                 respectPrefersColorScheme: true,
             },
             navbar: {
-                title: 'My Site',
+                title: "Nether-wart's notes",
                 logo: {
                     alt: 'My Site Logo',
                     src: 'img/logo.svg',
@@ -120,7 +120,7 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Note',
                     },
                 ],
             },
